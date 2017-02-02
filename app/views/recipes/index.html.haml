@@ -1,4 +1,8 @@
-%h1 This is the recipes index
-
-- @recipes.each do |recipe|
-  %h4= link_to recipe.title, recipe
+.row
+  - @recipes.each do |recipe|
+    .col-md-4
+      .recipe
+        .image_wrapper
+          = link_to recipe do
+            = image_tag recipe.image.url(:medium)
+        %h4= link_to recipe.title, recipe
