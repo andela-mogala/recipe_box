@@ -11,10 +11,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml', '~> 4.0.5'
-gem 'simple_form', '~> 3.0.2'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'simple_form'
+gem 'bootstrap-sass'
 gem 'paperclip', '~> 5.1'
-gem 'cocoon', '~> 1.2', '>= 1.2.9'
+gem 'cocoon', '~> 1.2'
+gem 'devise'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
